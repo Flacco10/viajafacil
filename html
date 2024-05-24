@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajafacil.tur.ar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="top-bar">
+            <span><i class="fas fa-phone-alt"></i> (11) 3064 0404</span>
+            <span><i class="fas fa-envelope"></i> atendimento@viajafacil.tur.ar</span>
+        </div>
+        <div class="logo-nav">
+            <img src="logo.png" alt="Viajafacil.tur.ar" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Viajes</a></li>
+                    <li><a href="#">Informaciones</a></li>
+                    <li><a href="#">Quiénes Somos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </div>
+        </div>
+    </header>
+    <!-- Main Banner -->
+    <section class="main-banner">
+        <img src="banner.jpg" alt="Banner principal" class="banner-image">
+        <div class="search-box">
+            <div class="search-options">
+                <button>Pasajes</button>
+                <button>Hoteles</button>
+                <button>Carros</button>
+                <button>Paquetes</button>
+            </div>
+            <form>
+                <div class="trip-options">
+                    <label><input type="radio" name="trip" value="ida-y-vuelta" checked> Ida y vuelta</label>
+                    <label><input type="radio" name="trip" value="solo-ida"> Solo ida</label>
+                    <label><input type="radio" name="trip" value="multiples-destinos"> Múltiples destinos</label>
+                </div>
+                <div class="search-fields">
+                    <div>
+                        <label for="origen">Origen:</label>
+                        <input type="text" id="origen" placeholder="Escoja la origen">
+                    </div>
+                    <div>
+                        <label for="destino">Destino:</label>
+                        <input type="text" id="destino" placeholder="Escoja el destino">
+                    </div>
+                    <div>
+                        <label for="ida">Ida:</label>
+                        <input type="date" id="ida">
+                    </div>
+                    <div>
+                        <label for="vuelta">Vuelta:</label>
+                        <input type="date" id="vuelta">
+                    </div>
+                </div>
+                <button type="submit" class="search-button">Buscar</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Viajafacil.tur.ar. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
