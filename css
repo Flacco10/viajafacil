@@ -1,0 +1,44 @@
+}
+
+.search-fields div {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.search-fields label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.search-fields input[type="text"],
+.search-fields input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.search-button:hover {
+    background-color: #218838;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
